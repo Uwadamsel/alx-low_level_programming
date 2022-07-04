@@ -5,7 +5,9 @@
 /**
  * main -> assign a random number to the variable n each time it is executed
  * based a condition
- * Return : always 0
+ * Description: Positive anything is better than negative nothing
+ *
+ * Return: always 0
 */
 int main(void)
 {
