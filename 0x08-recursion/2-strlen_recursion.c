@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - returns the length of a string
- * @s: string
- * Return 0;
-*/
-int main(void)
+  * _strlen_recursion - Calculate the length of a string
+  * @s: the string to count
+  *
+  * Return: integer value
+  */
+int _strlen_recursion(char *s)
 {
-	char s[] = "Programming is fun";
-	int i;
+	if (*s == '\0')
+	{
+		return (0);
+	}
 
-	for
-		(i = 0; s[i] != '\0'; ++i);
-
-	printf("Length of the string: %d", i);
-	Return 0;
+	s++;
+	return (_strlen_recursion(s) + 1);
 }
