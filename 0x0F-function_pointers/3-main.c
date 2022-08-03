@@ -1,3 +1,25 @@
+
+Sign up
+
+BrightDaniel
+/
+alx-low_level_programming
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+ master 
+alx-low_level_programming/0x0F-function_pointers/3-main.c
+
+BrightDaniel Functions Project 1st Commit
+…
+ 1 contributor
+32 lines (27 sloc)  401 Bytes
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
